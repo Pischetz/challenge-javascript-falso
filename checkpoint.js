@@ -33,7 +33,10 @@ const {
 // < 16
 
 function exponencial(exp) {
-
+    let expo = exp
+    return function pot(base){
+        return base ** expo
+    }
 }
 
 // ----- Recursión -----
